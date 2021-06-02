@@ -1,0 +1,29 @@
+
+
+img.LogoWeather{
+    position:relative;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 15px;
+  
+}
+
+button.WeatherButton{
+    position:relative;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px 15px ;
+    background-color: rgba(15, 15, 219, 0.938);
+    color: white;
+    border-radius: 10%;
+    
+    
+}
+
+@media(max-width: 676px){
+    img.LogoWeather {
+        width:350px;
+    }
+}
